@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	
+	.main{
+		padding: 10px 50px;
+		background-color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-family: 'Rubik', sans-serif;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100dvh;
+		flex: 1 0 0;
+		align-self: stretch;
+	}
+}
+
+a{
+	text-decoration: none;
+}
+
+.question{
+	font-size: 24px;
+	font-weight: 500;
+	color: #10182B;
+	margin-bottom: 10px;
+}
+
+.timer{
+	color: #78746D;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.type-question{
+	color: #BEBAB3;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.type{
+	display: flex;
+	justify-content: center;
+}
+
+.answers{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-content: center;
+	max-width: 100%
+}
+
+.answer{
+	box-sizing: border-box;
+	color: #3C3A36;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 16px 24px;
+	margin-top: 10px;
+	border: 1px solid #BEBAB3;
+	border-radius: 8px;
+	width: 100%;
+}
+
+.input-container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	max-width: 100%;
+	position: relative;
+}
+
+#answer-input{
+	border: 1px solid #BEBAB3;
+	border-radius: 12px;
+	padding: 16px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+#answer-input::placeholder{
+	color: #78746D;
+}
+
+.navigation{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	margin-bottom: 20px;
+}
+
+.number{
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-buttons{
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+}
+
+.row-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+	margin-top: 10px;
+}
+
+.back-further{
+	background-color: #FFF;
+	color: #3C3A36;
+	border: 2px solid #E3562A;
+	padding: 16px;
+	border-radius: 16px;
+	width: 50%;
+	font-size: 16px;
+	text-align: center;
+}
+
+.review-buttons{
+	display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.review{
+	color: #FFFFFF;
+	background-color: #E3562A;
+	border: #E3562A;
+	width: 100%;
+	padding: 16px 32px;
+	font-size: 16px;
+	border-radius: 16px;
+	margin-top: 10px;
+	text-align: center;
+}
