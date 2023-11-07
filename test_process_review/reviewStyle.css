@@ -1,0 +1,133 @@
+
+html{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    background: #777777;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 41px;
+    min-height: 80px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.container-one{
+    /* border: 4px solid #E3562A; */
+    border-radius: 15px;
+    padding: 0px 10px;
+    margin: 10px 0;
+    text-align: center;
+    
+}
+
+.container-two {
+    /* border: 4px solid #E3562A; */
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    border-radius: 30px;
+    background: #ffffff;
+    padding-top: 15px;
+    padding: auto;
+    height: 320px;
+}
+
+/* .container-three{
+    width: 100%;
+    height: 310px;
+    padding: 0px 20px;
+    border-radius: 25px;
+    padding-right: 35px;
+} */
+
+.container-three .tasks {
+    padding-top: 20px;
+    
+}
+
+.tasks li {
+    padding: 9px 0px;
+    list-style-type: none;
+    display: inline-block;
+    width: 10.6%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    font-size:15px;
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #9b9b9b;
+    border-radius: 13px;
+    font-weight: 500;
+}
+
+.tasks{
+    padding-left: 25px;
+}
+
+.tasks a{
+    text-decoration: none;
+}
+
+.tasks .done {
+    background: #E3562A;
+    color: #ffffff;
+    border: none;
+    font-weight: 400;
+}
+
+.tasks .done a {
+    color: #ffffff; 
+}
+
+.tasks .active {
+    border: 2px solid #cacaca;
+    border-color: #E3562A;
+}
+
+footer button {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 18px 100px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #E3562A;
+    color: rgb(255, 255, 255); 
+    border-radius: 15px;
+    border: 550px;
+    cursor: pointer;
+}
