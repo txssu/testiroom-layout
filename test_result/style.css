@@ -1,0 +1,113 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+header {
+    padding-top: 41px;
+    min-height: 80px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-size: 17px;
+}
+
+h1,h2,p {
+    margin: 7px;
+}
+
+.info {
+    display: flex;
+    margin: 0px 30px;
+    font-size: 13px;
+}
+
+
+table {
+    padding: 0 100px;
+    width: 100%;
+    border-color: #E3562A;
+    text-align: center; 
+    border-collapse: collapse; 
+    border-radius: 8px;
+    border-spacing: 0;
+    overflow:hidden;
+    padding: 150px; 
+  }
+  
+.wrapper {
+    padding: 25px;
+    
+}
+
+  td, th td {
+    padding: 10px;
+    font-weight: 600;
+    vertical-align: middle; 
+    
+  }
+  
+  .table td, .table th {
+    padding: 12px;
+    border: 5px solid #E3562A;
+    padding: 10px; 
+  }
+
+footer {
+    padding-bottom: 40px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.check-false {
+    background-color: rgb(255, 187, 187);
+}
+
+.check-right{
+    background-color: rgb(204, 250, 210);
+}
+
+.check-partly{
+    background-color: rgb(255, 255, 188);
+}
+
+.check a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container button {
+    padding: 18px 80px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    background-color: #E3562A;
+    color: rgb(255, 255, 255); 
+    border-radius: 15px;
+    border: 550px;
+    cursor: pointer;
+}
+
+
