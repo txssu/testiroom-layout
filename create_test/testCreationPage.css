@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Rubik Regular";
+    src: url('/css/fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Rubik Bold";
+    src: url('/css/fonts/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Rubik Medium";
+    src: url('/css/fonts/Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url('/css/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: "SFProText-Semibold";
+    src: url('/css/fonts/SFProText-Semibold.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik Regular";
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  .form {
+    width: 866px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form__notice {
+    color: #000000;
+    margin-bottom: 5px;
+  }
+
+
+  .form__title{
+    font-size: 20px;
+    height: 26px;
+    margin-bottom: 5px;
+}
+
+.img{
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.label__input{
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+  .form__notice span{
+    color: #ff3f3f;
+}
+
+.label .header{
+  padding-top: 5px;
+}
+
+.label:first-of-type .header{
+  padding-top: 15px;
+}
+  
+  .label {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* margin-bottom: 5px; */
+  }
+
+  .label:last-child{
+    margin-bottom: 0;
+  }
+
+  .label__title{
+    margin-bottom: 5px;
+  }
+
+  .row{
+    display: inline-block;
+    width: 866px;
+    height: 33px;
+    margin-bottom: 5px;
+}
+  
+
+  
+.points{
+  list-style-type: none;
+  width: 25px;
+}
+
+.center{
+    margin-right: 20px;
+}
+
+
+.little{
+    width: 25px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+/* .selected{
+    width: 103px;
+    height: 33px;
+    text-align: center;
+    font-size: large;
+    color: #ff3f3f;
+} */
+
+.label__input{
+  height: 32px;
+  border-radius: 8px;
+  height: 32px;
+  border: 1px solid #BEBAB3;
+}
+
+.p{
+    width: auto;
+    height: 26px;
+}
+
+
+.extended{
+    height: 88px;
+    display: inline-block;
+}
+
+  .textarea {
+    padding: 9px;
+    border-radius: 10px;
+    border: 2px solid #BEBAB3
+  }
+  
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 354px;
+    height: 33px;
+    margin-bottom: 15px;
+  }
+
+  .container_two{
+    display: flex;
+    align-items: center;
+    width: 256px;
+    height: 26px;
+    margin-top: 5px;
+  }
+
+  .container_two li{
+    list-style-type: none;
+    margin-right: 8px;
+  }
+
+.button{
+  width: 103px;
+  height: 20px;
+  text-align: center;
+  font-size: large;
+  border: 2px solid #E3562A;
+  border-radius: 8px;
+  font-size: 15px;
+  border: 2px solid #E3562A;
+  outline: none;
+  font-family: "Rubik Medium";
+  background-color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.button-triangle{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+
+.custom-checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 2px solid #E3562A;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked+label::before {
+  background-color: #FFC09D;
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e"); */
+}
+
+
+
+.delete{
+  width: 103px;
+  height: 33px;
+}
+
+.add{
+  width: 154px;
+  height: 33px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 46px;
+}
+
+.active{
+  background-color: #FFC09D
+}
+  .save {
+    width: 275px;
+    height: 56px;
+    font-size: 16px;
+    font-family: "Rubik Medium";
+    width: 275px;
+    height: 56px;
+    background-color: #E3562A;
+    color: rgb(255, 255, 255); 
+    border-radius: 15px;
+    border: 550px;
+    cursor: pointer;
+  }

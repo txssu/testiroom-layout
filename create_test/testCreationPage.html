@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="testCreationPage.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form">
+      <label class="label">
+        <div class="header">
+          <h2 class="form__title">Общая информация</h2>
+          <button class="button-triangle" type="button">
+            <img src="images/Polygon 1.png" class="img" alt="polygon">
+          </button>
+        </div>
+        <p class="form__notice">Название теста<span>*</span></p>
+        <input class="label__input" type="text" placeholder="">
+        <span class="label__title">Описание</span>
+        <input class="label__input extended" type="text" placeholder="">
+      </label>
+        <label class="label">
+          <div class="header">
+            <h2 class="form__title">Синхронизация</h2>
+            <button class="button-triangle" type="button">
+              <img src="images/Polygon 1.png" class="img" alt="polygon">
+            </button>
+          </div>
+          <span class="label__title">Начало теста</span>
+          <input class="label__input" type="text" placeholder="">
+          <span class="label__title">Окончание теста</span>
+          <input class="label__input" type="text" placeholder="">
+          <span class="label__title">Время на выполнение</span>
+          <input class="label__input" type="text" placeholder="">
+      </label>
+      <label class="label">
+        <div class="header">
+          <h2 class="form__title">Параметры оценки</h2>
+          <button class="button-triangle" type="button">
+            <img src="images/Polygon 1.png" class="img" alt="polygon">
+          </button>
+        </div>
+        <label class="row">
+          <span class="label__title center">Оценка</span>
+          <input class="label__input little" type="text" placeholder="">
+          <span class="label__title center">от</span>
+          <input class="label__input little" type="text" placeholder="">
+          <span class="label__title center">до</span>
+          <input class="label__input little" type="text" placeholder="">
+          <span class="label__title center">%</span>
+          <button class="button delete" type="reset">Удалить</button>
+        </label>
+        <div class="container">
+          <button class="button add" type="button">Добавить оценку</button>
+        </div>
+      </label>
+      <label class="label">
+        <div class="header">
+          <h2 class="form__title">Настройки отчета ученика</h2>
+          <button class="button-triangle" type="button">
+            <img src="images/Polygon 1.png" class="img" alt="polygon">
+          </button>
+        </div>
+        <div class="container_two">
+          <li>
+            <input type="checkbox" class="custom-checkbox" id="first" name="happy" value="yes">
+            <label for="first"></label>
+          </li>
+          <p>Не показывать результаты</p>
+        </div>
+        <div class="container_two">
+          <li>
+            <input type="checkbox" class="custom-checkbox" id="second" name="happy" value="yes">
+            <label for="second"></label>
+          </li>
+          <p>Не показывать баллы</p>
+        </div>
+        <div class="container_two">
+          <li>
+            <input type="checkbox" class="custom-checkbox" id="third" name="happy" value="yes">
+            <label for="third"></label>
+          </li>
+          <p>Не показывать оценку</p>
+        </div>
+        <div class="container_two">
+          <li>
+            <input type="checkbox" class="custom-checkbox" id="fourth" name="happy" value="yes">
+            <label for="fourth"></label>
+          </li>
+          <p>Не показывать ответы</p>
+        </div>
+      </label>
+      <footer class="footer">
+        <button class="save" type="submit">Сохранить</button>
+      </footer>
+    </form>
+  </body>
+</html>
