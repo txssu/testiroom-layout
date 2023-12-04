@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+	<script src="script.js"></script>
+	<title>Создать тест</title>
+</head>
+<body>
+	<div class="main">
+
+		<!-- Блок Вопросы -->
+
+		<div class="questions">
+			<div class="qsn-title">Вопросы</div>
+			<div class="qsn-numbers">
+				<button class="number number-orange">1</button>
+				<button class="number">2</button>
+				<button class="number">3</button>
+				<button class="number">4</button>
+				<button class="number">5</button>
+				<button class="number">+</button>
+			</div>
+			<div class="qsn-type-div">
+				<div class="qsn-type-title">Тип вопроса<span class="orange-color">*</span></div>
+				<div class="qsn-type">
+					<div class="triangle"></div>
+				</div>
+			</div>
+			<div class="qsn-text">
+				<div class="qsn-text-title">
+					Текст вопроса<span class="orange-color">*</span>
+				</div>
+				<div class="qsn-text-input">
+					<textarea id="qsn-text-input-place"></textarea>
+				</div>
+			</div>
+			<div class="add-multimedia">
+				<div class="am-title">Добавить мультимедиа</div>
+				<button class="number">+</button>
+			</div>
+		</div>
+
+		<!-- Блок Варианты ответов -->
+
+		<div class="answer-options">
+			<div class="ao-title">Варианты ответов</div>
+			<div class="answer">
+				<div class="answer-input">
+					<input type="text" id="answer-input-place">
+				</div>
+				<div class="right-answer">
+					<div class="right-answer-title">Верный ответ</div>
+					<div class="right-answer-checkbox"></div>
+				</div>
+			</div>
+			<button class="delete-button"><b>Удалить</b></button>
+
+			<!-- Еще один ответ -->
+
+			<div class="answer">
+				<div class="answer-input">
+					<input type="text" id="answer-input-place">
+				</div>
+				<div class="right-answer">
+					<div class="right-answer-title">Верный ответ</div>
+					<div class="right-answer-checkbox"></div>
+				</div>
+			</div>
+			<button class="delete-button"><b>Удалить</b></button>
+
+			<button class="add-answer"><b>Добавить вариант ответа</b></button>
+
+			<div class="shuffle-answer-options">
+				<div class="right-answer-checkbox" style="margin-left: 0px;"></div>
+				<div class="sao-title">Перемешать варианты ответов</div>
+			</div>
+
+			<div class="points">
+				<div class="points-title">Количество баллов за верное решение</div>
+				<div class="points-input">
+					<input type="text" id="points-input-place">
+				</div>
+			</div>
+
+			<button class="delete-button"><b>Удалить вопрос</b></button>
+		</div>
+	</div>
+
+	<!-- Кнопка сохранить-->
+
+	<div class="sv-btn">
+		<a class="save-button" href="#">Сохранить</a>
+	</div>
+</body>
+</html>
