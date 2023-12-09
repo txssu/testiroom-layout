@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Rubik Regular";
+    src: url('/css/fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Rubik Bold";
+    src: url('/css/fonts/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Rubik Medium";
+    src: url('/css/fonts/Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url('/css/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: "SFProText-Semibold";
+    src: url('/css/fonts/SFProText-Semibold.ttf');
+}
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+body{
+    padding-top: 46px;
+    padding-bottom: 46px;
+    min-width: 320px;
+    overflow-x: hidden;
+    font-family: "Rubik Regular";
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+.container-one{
+    width: 866px;
+}
+
+h1{
+    margin-bottom: 51px;
+    font-size: 32px;
+    font-family: "Rubik Bold";
+}
+
+h2{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+h2:last-child{
+    margin-right: 0px;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+p:last-child{
+    margin-bottom: 0px;
+}
+
+.container-two{
+    margin-bottom: 51px;
+    width: 160px;
+    height: 26px;
+    display: flex;
+    margin-left: 0px;
+}
+
+
+
+.container-three{
+    margin-bottom: 58px;
+}
+
+.table{
+    width: 798px;
+    height: 310px;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+.table-header{
+    width: 795px;
+    height: 22px;
+    font-size: 14px;
+    font-family: "Rubik Regular";
+    font-weight:lighter;
+    font-size: 14px;
+    background-color: #E3562A;
+    color: #FFFFFF;
+}
+
+.table-header p{
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+
+
+.check{
+    width: 90px;
+    height: 57px;
+}
+
+.right{
+    background-color: #C4FFBA;
+}
+
+.false{
+    background-color: #FFCECE;
+}
+
+.error{
+    border: 2px solid #EF4949;
+}
+
+
+.table tr td p{
+    font-size: 14px;
+}
+
+.first-column{
+    width: 160px;
+}
+
+.numbers{
+    font-family: "Rubik Medium";
+    font-size: 20px;
+    text-align: end;
+    padding-right: 7px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button {
+    height: 11px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.column-header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.triangles {
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
