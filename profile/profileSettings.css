@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Rubik Regular";
+    src: url('/css/fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Rubik Bold";
+    src: url('/css/fonts/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Rubik Medium";
+    src: url('/css/fonts/Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url('/css/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: "SFProText-Semibold";
+    src: url('/css/fonts/SFProText-Semibold.ttf');
+}
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+    padding: 0 auto;
+    margin: 0 auto;
+    border: none;
+}
+
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+    font-family: "Rubik Regular";
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+.header{
+    display: flex;
+    background-color: #E3562A;
+    color: #FFFFFF;
+    align-items: center;
+    height: 67px;
+    margin-bottom: 125px;
+}
+
+.left-panel{
+    display: flex;
+    margin-left: 0;
+    padding-left: 48px;
+    align-items: center;
+}
+
+.left-panel-title{
+    margin-right: 35px;
+}
+
+.right-panel-title{
+    margin-right: 35px;
+}
+
+h1 {
+    font-family: "Rubik Bold";
+    font-size: 56px;
+}
+
+h4 {
+    font-family: "Rubik Medium";
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.right-panel{
+    display: flex;
+    margin-right: 0;
+    padding-right: 48px;
+}
+
+.main{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.input-field{
+    width: 433px;
+    height: 32px;
+    border: 1px solid #BEBAB3;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-bottom: 25px;
+    padding: 12px 20px;
+}
+
+.button{
+    width: 208px;
+    height: 41px;
+    background-color: #E3562A;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+    font-family: "Rubik Medium";
+    cursor: pointer;
+}
+
+.container{
+    width: 1348px;
+    height: 229px;
+}
+
+.container:first-child{
+    margin-bottom: 51px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.underlined{
+    text-decoration: underline;
+}
