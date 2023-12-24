@@ -1,0 +1,129 @@
+body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Rubik', sans-serif;
+}
+
+header a{
+	text-decoration: none;
+}
+
+button{
+	cursor: pointer;
+}
+
+.header{
+	padding: 0px 48px;
+	background-color: #E3562A;
+	display: flex;
+	height: 67px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.testyroom-title{
+	color: #fff;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 105%;
+}
+
+.reg-login{
+	display: flex;
+	align-items: center;
+
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 32px;
+	letter-spacing: -0.5px;
+}
+
+.reg-login a{
+	color: #fff;
+}
+
+.registration{
+	margin-right: 35px;
+}
+
+.main-div{
+	margin: 125px 403px 100px 403px;
+	border: 1px solid #000;
+	background: #D9D9D9;
+}
+
+.registration-fields{
+	padding: 24px 103px 35px 103px;
+	min-width: 433px;
+	height: 443px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-shrink: 0;
+}
+
+.registration-tile{
+	display: flex;
+	justify-content: center;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: -1px;
+}
+
+.title-input-mg{
+	margin-bottom: 5px;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 32px;
+	letter-spacing: -0.5px;
+}
+
+#input{
+	border-radius: 8px;
+	border: 1px solid #BEBAB3;
+	min-height: 32px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.create-account-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.create-account-button{
+	display: flex;
+	width: 275px;
+	height: 37px;
+	padding: 16px 32px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 16px;
+	border: 0px;
+	background: #E3562A;
+}
+
+.create-account-title{
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+}
+
+.log-in-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #78746D;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+}
+
+.log-in-bottom{
+	color: #78746D;
+	margin-left: 5px;
+}
